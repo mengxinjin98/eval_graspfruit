@@ -1,0 +1,31 @@
+runtime:
+  max_attempts: 5
+  seed: 7
+  headless: false
+  record: false
+  run_root: runs
+vlm:
+  model: qwen3-vl-plus
+  timeout_seconds: 45
+  repair_attempts: 1
+sam:
+  model_id: facebook/sam2.1-hiera-base-plus
+  min_mask_pixels: 250
+  min_valid_depth_ratio: 0.65
+  box_padding_pixels: 8
+grasp:
+  checkpoint: checkpoints/graspnet/checkpoint-rs.tar
+  third_party_root: third_party/graspnet-baseline
+  num_points: 12000
+  max_candidates: 30
+  collision_threshold: 0.01
+  approach_angle_deg: 60
+  min_width: 0.015
+  max_width: 0.085
+  network_width_tolerance: 0.015
+simulation:
+  image_width: 640
+  image_height: 480
+  settle_steps: 500
+  control_steps: 160
+  timestep: 0.002

@@ -1,0 +1,40 @@
+{
+  "source": "https://huggingface.co/datasets/ai-habitat/ycb",
+  "source_revision": "29be64fdd95b4881f244152ad653058e0a48c28f",
+  "license": "CC-BY-4.0",
+  "objects": {
+    "banana": {
+      "ycb_id": "011_banana",
+      "source_sha256": "24798b8926b899df70e62a07105691bba859429807d032346db3b5d05b5cd5ae",
+      "visual_sha256": "3e91b5833f7e056dcb732b1f10bcc8f2e053ee9910f05efcb88740e8be3ac328",
+      "collision_sha256": "0b78b7e9e25c98ac8cc18bfb0d936d2eb755e75cb24ffef2a75162984cfa66f3",
+      "extents_m": [
+        0.1089709997177124,
+        0.17839500308036804,
+        0.036752000043634325
+      ]
+    },
+    "apple": {
+      "ycb_id": "013_apple",
+      "source_sha256": "b37b4d5bf1f49ee187264201500f39dfae529269cdb6d2fb7b7ccc1a1e452193",
+      "visual_sha256": "123c9ca5c2ddd86fcbb2091c9e9ed803c77415443bee460f302a0eae698a32b1",
+      "collision_sha256": "506654e078b2702cc959c67960bb3c70e57a8d59752ba38d39ad0e535d84eedc",
+      "extents_m": [
+        0.07541900128126144,
+        0.074839998036623,
+        0.07190699654165655
+      ]
+    },
+    "pear": {
+      "ycb_id": "016_pear",
+      "source_sha256": "bf8425e5735e01e25088b6ae692b16c1f70863aca3f6a31886ff449f8f482ca2",
+      "visual_sha256": "6c1dc40310fc792a8b50a1fe2340ae0836b744e30c5cb978ac2e5ab0a8c1f50c",
+      "collision_sha256": "0c0018e6681910fc51373496a5a65e2e2566228ff1150274b293ffb5caae9981",
+      "extents_m": [
+        0.06653500336688012,
+        0.10048200190067291,
+        0.06564499899104703
+      ]
+    }
+  }
+}
